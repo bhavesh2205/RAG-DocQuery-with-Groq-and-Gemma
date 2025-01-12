@@ -1,12 +1,12 @@
 # RAG-QA-with-Groq-and-Gemma
 
-This project is a **Retrieval-Augmented Generation (RAG)** application that leverages Streamlit for an interactive user interface and integrates modern NLP tools to provide context-aware answers based on research paper content.
+This project is a **Retrieval-Augmented Generation (RAG)** application that leverages Streamlit for an interactive user interface and integrates modern GenAI tools to provide context-aware answers based on provided document content.
 
 ## Key Components
 
 ### 1. **Document Processing**
 
-- **File Upload**: Users can upload PDF files containing research papers.
+- **File Upload**: Users can upload PDF files containing any information.
 - **PyPDFLoader**: Extracts text from uploaded PDFs.
 - **RecursiveCharacterTextSplitter**: Splits the text into manageable chunks for efficient processing.
 
@@ -36,7 +36,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** application that leve
 - **LangChain**: Document loading, text splitting, and QA chain.
 - **HuggingFace Transformers**: Text embeddings.
 - **FAISS**: Vector storage and retrieval.
-- **Groq Chat Model**: NLP model for answering queries.
+- **Groq Chat Model**: LLM model for answering queries.
 
 ## How It Works
 
@@ -66,13 +66,4 @@ This project is a **Retrieval-Augmented Generation (RAG)** application that leve
    streamlit run app.py
    ```
 
-## Acknowledgments
-
-Special thanks to Groq, HuggingFace, and LangChain for their excellent tools and resources.
-
-## Future Enhancements
-
-- Support for additional file formats (e.g., Word documents).
-- Enhanced UI for multi-file uploads.
-- Integration with other NLP models for diverse use cases.
 
