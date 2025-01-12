@@ -50,20 +50,4 @@ This project is a **Retrieval-Augmented Generation (RAG)** application that leve
 - Python 3.9+
 - Required Python libraries: `streamlit`, `langchain`, `faiss-cpu`, `transformers`, `groq`.
 
-## Setup Instructions
-
-1. Clone this repository:
-   ```bash
-   git clone <repository_url>
-   cd <repository_folder>
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Streamlit app:
-   ```bash
-   streamlit run app.py
-   ```
-
 
