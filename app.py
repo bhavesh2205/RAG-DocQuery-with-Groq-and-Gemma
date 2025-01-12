@@ -60,7 +60,7 @@ if 'docs' in locals() and embedding_model:
 st.markdown("#### Ask Questions")
 query = st.text_input("Enter your query:")
 
-if query and 'vector_store' in locals():
+if st.button("Get Response") and query and 'vector_store' in locals():
     try:
         retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 3})
         # define the prompt template
