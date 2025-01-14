@@ -26,7 +26,7 @@ embedding_model = st.sidebar.selectbox(
 )
 
 # app title
-st.title("RAG-QA with Groq and Gemma")
+st.title("DocQuery")
 
 # upload pdfs
 uploaded_files = st.file_uploader("Upload PDF Files", type=["pdf"], accept_multiple_files=True)
