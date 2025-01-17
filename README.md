@@ -1,4 +1,4 @@
-# RAG-QA-with-Groq-and-Gemma
+# RAG-DocQuery-with-Groq-and-Gemma
 
 This project is a **Retrieval-Augmented Generation (RAG)** application that leverages Streamlit for an interactive user interface and integrates modern GenAI tools to provide context-aware answers based on provided document content.
 
